@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin: 15px;
+}
+
+#excelForm {
+    background-color: #7cb7d6;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#output {
+    margin: 20px 0;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Light Theme Styles */
+.light-theme {
+    background-color: #aed0ff; /* very light blue */
+    color: #151313;
+    .excelForm{
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 400px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+}
+
+/* Dark Theme Styles */
+.dark-theme {
+    background-color: #001f3f; /* dark shade of blue */
+    color: #ded5d5;
+}

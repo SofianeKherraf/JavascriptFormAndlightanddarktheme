@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Excel Calculator</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <nav>
+            <a href="index.html">Home</a>
+            <a href="excel.html">Excel</a>
+    </nav>
+</header>
+<body class="light-theme">
+
+
+<h1>Excel Calculator</h1>
+<form id="excelForm">
+    <label for="numbers">Enter numbers (separated by spaces):</label>
+    <input type="text" id="numbers" required>
+
+    <label>Choose Excel function:</label>
+    <input type="radio" name="excelFunction" value="Sum" checked>Sum
+    <input type="radio" name="excelFunction" value="Average">Average
+    <input type="radio" name="excelFunction" value="Max">Max
+    <input type="radio" name="excelFunction" value="Min">Min
+
+    <button type="button" id="calculateButton">Calculate</button>
+    <div id="output"></div>
+
+</form>
+
+
+<button id="darkThemeButton">Dark Theme</button>
+<button id="lightThemeButton">Light Theme</button>
+
+<script src="js/script.js"></script>
+
+
+
+</body>
+<footer>
+    <p>
+        ILAC & EFREI - HTML, CSS, and JavaScript Assignment - Sofiane Kherraf
+    </p>
+</footer>
+</html>
