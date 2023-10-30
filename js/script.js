@@ -89,12 +89,22 @@ function myExcelFuns() {
 }
 
 // Toggle between dark and light themes
-document.getElementById("darkThemeButton").addEventListener("click", function () {
-    document.body.classList.remove("light-theme");
-    document.body.classList.add("dark-theme");
+document.getElementById("darkThemeButton").addEventListener("click", function (event) {
+    event.preventDefault(); // Prevent form submission
+    toggleDarkTheme();
 });
 
-document.getElementById("lightThemeButton").addEventListener("click", function () {
+function toggleDarkTheme() {
+    document.body.classList.remove("light-theme");
+    document.body.classList.add("dark-theme");
+}
+
+document.getElementById("lightThemeButton").addEventListener("click", function (event) {
+    event.preventDefault(); // Prevent form submission
+    toggleDarkTheme();
+});
+
+function toggleLightTheme() {
     document.body.classList.remove("dark-theme");
     document.body.classList.add("light-theme");
-});
+}
